@@ -23,5 +23,5 @@ pkgver() {
 package() {
         cd "${srcdir}/${_gitname}"
         install -dm755 "${pkgdir}/usr/share/icons"
-        ./install.sh -d "${pkgdir}/usr/share/icons" -c dark
+        ./install.sh -t green -d "${pkgdir}/usr/share/icons" 
 }
