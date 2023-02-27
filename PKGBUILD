@@ -1,4 +1,4 @@
- # Maintainer: Maurício de Lima <mauriciodelima.mol@gmail.com>
+# Maintainer: Maurício de Lima <mauriciodelima.mol@gmail.com>
 
 pkgname=uaiso-icon-theme-orion
 pkgver=$(date +%y.%m.%d)
