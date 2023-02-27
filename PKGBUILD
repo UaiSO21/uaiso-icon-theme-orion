@@ -9,7 +9,7 @@ url="https://github.com/UaiSO21/uaiso-icon-theme-orion"
 pkgdesc="Icon theme UaiSO Evolve Orion"
 source=("git+https://github.com/UaiSO21/uaiso-icon-theme-orion.git")
 md5sums=(SKIP)
-
+depends=('gtk-update-icon-cache')
 
 package() {
     cp -r "${srcdir}/uaiso-icon-theme-orion/usr/" "${pkgdir}/"
